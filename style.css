@@ -60,3 +60,18 @@ button {
 button:hover {
     background: deepskyblue;
 }
+
+@media (max-width: 768px) {
+    .pokemonContent .innerdata{
+    margin-left: 5px !important;
+    }
+    .heading{
+        position: relative;
+        left: 50%;
+    }
+    .pagination{
+        position: relative;
+        left: 50%;
+    }
+    }
+
