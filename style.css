@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.body{
+    font-family: Poppins;
+}
+
+.heading{
+    text-align: center;
+    color: #af0000b8;
+    margin-top: 2em;
+}
+
+.pokemonname{
+    text-align: center;
+    
+}
+
+.contentData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.response{
+    background: linear-gradient(to right top, #2a17f6, #0079ff, #0099f0, #00af87, #24bc1d);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media(max-width:1200px) {
+    .img-div{
+        margin: auto;        
+    }
+    .response{
+        grid-template-columns: 1fr;
+
+    }
+}
+@media (max-width: 768px) {
+    .pokemonContent .card {
+      flex-direction: initial !important;
+      width: 620px !important;
+    }
+    .pagination{
+        justify-content: center;
+    }
+  }
+
+.pagination{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+button {
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    background: skyblue;
+}
+button:hover {
+    background: deepskyblue;
+}
