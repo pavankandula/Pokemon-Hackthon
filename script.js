@@ -2,7 +2,7 @@ getPokemons();
 
 //Get data from pokemon-mockapi
 async function getPokemons() {
-  const data = await fetch("https://pokeapi.co/api/v2/pokemon/?limit=151", {
+  const data = await fetch("https://pokeapi.co/api/v2/pokemon/?limit=50", {
     // fetch the data from api
     method: "GET"
   });
